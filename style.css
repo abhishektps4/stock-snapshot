@@ -1,0 +1,86 @@
+/* Reset default margin/padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Main container */
+.container {
+  width: 90%;
+  max-width: 400px;
+  padding: 30px 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: center;
+  overflow-y: auto;
+  max-height: 95vh;
+}
+
+/* Input + Button */
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Result card */
+.card {
+  margin-top: 20px;
+  word-wrap: break-word;
+}
+
+/* Hide element */
+.hidden {
+  display: none;
+}
+
+/* Change % color */
+#change.positive {
+  color: green;
+}
+
+#change.negative {
+  color: red;
+}
+
+/* Chart image */
+#chart {
+  width: 100%;
+  max-height: 100px;
+  object-fit: contain;
+  margin-top: 10px;
+}
