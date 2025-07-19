@@ -2,7 +2,7 @@
 
 A lightweight web app that lets you enter a stock ticker (like `AAPL`, `TSLA`) and displays the current price, % change, and a mini chart.
 
-![Stock Snapshot Demo](/Screenshot 2025-07-19 111040.png) 
+![Stock Snapshot Demo](/assets/stock.png) 
 
 ---
 
